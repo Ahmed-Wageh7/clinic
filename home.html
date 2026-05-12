@@ -1,0 +1,1112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinic</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav id="navmenu" class="navmenu container sticky-top p-3">
+      <a class="nav-left fs-3 fw-bold mt-2 custom-margin" href="#">Clinic</a>
+
+      <ul class="nav-links">
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+
+        <li class="dropdown">
+          <a href="#">
+            <span>More Pages</span>
+            <i class="bi bi-chevron-down toggle-dropdown"></i>
+          </a>
+          <ul>
+            <li><a href="department-details.html">Department Details</a></li>
+            <li><a href="service-details.html">Service Details</a></li>
+            <li><a href="appointment.html">Appointment</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="404.html">404</a></li>
+          </ul>
+        </li>
+
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <i class="fa-solid fa-bars mobile-nav-toggle d-xl-none"></i>
+    </nav>
+
+    <!-- Header -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Content -->
+          <div class="col-lg-6 col-md-12">
+            <!-- Badges -->
+            <div class="hero-badges">
+              <div class="badge-item">
+                <i class="fa-solid fa-shield-halved"></i>
+                Accredited
+              </div>
+              <div class="badge-item">
+                <i class="fa-regular fa-clock"></i>
+                24/7 Emergency
+              </div>
+              <div class="badge-item">
+                <i class="fa-solid fa-star"></i>
+                4.9/5 Rating
+              </div>
+            </div>
+
+            <!-- Title -->
+            <h1 class="hero-title">
+              Excellence in <span class="highlight">Healthcare</span> With
+              Compassionate Care
+            </h1>
+
+            <!-- Description -->
+            <p class="hero-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation.
+            </p>
+
+            <!-- Stats -->
+            <div class="hero-stats">
+              <div class="stat-item">
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">5000+</div>
+                <div class="stat-label">Patients Treated</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Medical Experts</div>
+              </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="hero-buttons">
+              <a href="#" class="btn-primary-custom"> Book Appointment </a>
+              <a href="#" class="btn-outline-custom">
+                <i class="fa-solid fa-play"></i>
+                Watch Our Story
+              </a>
+            </div>
+
+            <!-- Emergency Card -->
+            <div class="emergency-card">
+              <div class="emergency-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="emergency-info">
+                <h6>Emergency Hotline</h6>
+                <p>+20 1099 567 735</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Content - Image -->
+          <div class="col-lg-6 col-md-12">
+            <div class="hero-image-container">
+              <!-- Decorative Circles -->
+              <div class="decorative-circle circle-1"></div>
+              <div class="decorative-circle circle-2"></div>
+
+              <!-- Main Image -->
+              <div class="hero-image-wrapper">
+                <img
+                  src="./images/images01.webp"
+                  alt="Healthcare Professional"
+                  class="hero-image"
+                />
+
+                <!-- Availability Card -->
+                <div class="floating-card availability-card">
+                  <div class="availability-icon">
+                    <i class="fa-solid fa-calendar-check"></i>
+                  </div>
+                  <div class="availability-info">
+                    <h6>Next Available</h6>
+                    <p>Today 2:30 PM</p>
+                    <span>Dr. Sarah Johnson</span>
+                  </div>
+                </div>
+
+                <!-- Rating Card -->
+                <div class="floating-card rating-card">
+                  <div class="rating-stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="rating-number">4.9/5</div>
+                  <div class="rating-reviews">1,234 Reviews</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <!-- About Section -->
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- Left Content -->
+            <div class="col-lg-6 col-md-12">
+              <!-- Title -->
+              <h2 class="about-title fw-lighter">
+                Compassionate Care, Advanced Medicine
+              </h2>
+
+              <!-- Description Paragraphs -->
+              <p class="about-description">
+                For over two decades, we've been dedicated to providing
+                exceptional healthcare that combines cutting-edge medical
+                technology with the personal touch our patients deserve.
+              </p>
+
+              <p class="about-description">
+                Our multidisciplinary team of specialists works collaboratively
+                to ensure every patient receives comprehensive care tailored to
+                their unique needs. From preventive services to complex
+                procedures, we maintain the highest standards of medical
+                excellence while fostering an environment of trust and healing.
+              </p>
+
+              <!-- Stats -->
+              <div class="about-stats">
+                <div class="about-stat-item">
+                  <div class="about-stat-number">15000+</div>
+                  <div class="about-stat-label">Patients Served</div>
+                </div>
+                <div class="about-stat-item">
+                  <div class="about-stat-number">25+</div>
+                  <div class="about-stat-label">Years of Excellence</div>
+                </div>
+                <div class="about-stat-item">
+                  <div class="about-stat-number">50+</div>
+                  <div class="about-stat-label">Medical Specialists</div>
+                </div>
+              </div>
+
+              <!-- Button -->
+              <a href="#" class="btn-about"> Learn More About Us </a>
+            </div>
+
+            <!-- Right Content - Image -->
+            <div class="col-lg-6 col-md-12">
+              <div class="about-image-container">
+                <!-- Main Image -->
+                <div class="about-image-wrapper">
+                  <img
+                    src="./images/images02.webp"
+                    alt="Medical Clinic Reception"
+                    class="about-image"
+                  />
+
+                  <!-- Years Card -->
+                  <div class="about-floating-card years-card">
+                    <div class="years-number">25+</div>
+                    <div class="years-text">Years of Trusted Care</div>
+                  </div>
+
+                  <!-- Emergency Card -->
+                  <div class="about-floating-card emergency-card-about">
+                    <div class="emergency-icon-about">
+                      <i class="fa fa-heart-pulse"></i>
+                    </div>
+                    <div class="emergency-info-about">
+                      <h6>24/7 Emergency Care</h6>
+                      <p>Always here when you need us most</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Departments Section -->
+      <section class="featured-departments">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="section-header fade-in-up">
+            <h2 class="section-title">Featured Departments</h2>
+            <p class="section-subtitle">
+              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+              consectetur velit
+            </p>
+          </div>
+
+          <!-- Row 1: Featured Cards with Images -->
+          <div class="row g-4 mb-4">
+            <!-- Cardiovascular Medicine -->
+            <div class="col-lg-6 fade-in-up delay-1">
+              <div class="dept-card card-with-image h-100">
+                <div class="card-body-content">
+                  <span class="dept-badge">Specialized Care</span>
+                  <h3 class="dept-title">Cardiovascular Medicine</h3>
+                  <p class="dept-description">
+                    Advanced diagnostic imaging and interventional procedures
+                    for comprehensive heart health management with personalized
+                    treatment protocols.
+                  </p>
+                  <ul class="dept-features">
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i> 24/7 Emergency
+                      Cardiac Care
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i> Minimally
+                      Invasive Procedures
+                    </li>
+                  </ul>
+                  <a href="#" class="dept-link">
+                    Explore Cardiology <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+                <div class="card-image">
+                  <img
+                    src="./images/images03.webp"
+                    alt="Cardiovascular Medicine"
+                  />
+                  <div class="image-overlay">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Neurological Sciences -->
+            <div class="col-lg-6 fade-in-up delay-2">
+              <div class="dept-card card-with-image h-100">
+                <div class="card-body-content">
+                  <span class="dept-badge">Expert Care</span>
+                  <h3 class="dept-title">Neurological Sciences</h3>
+                  <p class="dept-description">
+                    Cutting-edge neuroimaging and neurosurgical expertise for
+                    complex brain and spinal cord conditions with innovative
+                    treatment approaches.
+                  </p>
+                  <ul class="dept-features">
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i> Advanced Brain
+                      Imaging
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i> Robotic Surgery
+                    </li>
+                  </ul>
+                  <a href="#" class="dept-link">
+                    Explore Neurology <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+                <div class="card-image">
+                  <img
+                    src="./images/images04.webp"
+                    alt="Neurological Sciences"
+                  />
+                  <div class="image-overlay">
+                    <i class="fa-solid fa-microchip"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 2: Simple Icon Cards -->
+          <div class="row g-4">
+            <!-- Orthopedic Surgery -->
+            <div class="col-md-6 col-lg-4 fade-in-up delay-3">
+              <div class="dept-card simple-card h-100">
+                <div class="dept-icon-wrapper">
+                  <i class="fa-solid fa-shield-halved dept-icon"></i>
+                </div>
+                <h3 class="dept-title">Orthopedic Surgery</h3>
+                <p class="dept-description">
+                  Comprehensive musculoskeletal care utilizing advanced
+                  arthroscopic techniques and joint replacement procedures.
+                </p>
+                <ul class="dept-features">
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i> Sports Medicine
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i> Joint Replacement
+                  </li>
+                  <li><i class="fa-solid fa-angle-right"></i> Spine Surgery</li>
+                </ul>
+                <a href="#" class="dept-link d-block">LEARN MORE</a>
+              </div>
+            </div>
+
+            <!-- Pediatric Care -->
+            <div class="col-md-6 col-lg-4 fade-in-up delay-4">
+              <div class="dept-card simple-card h-100">
+                <div class="dept-icon-wrapper">
+                  <i class="fa-solid fa-users dept-icon"></i>
+                </div>
+                <h3 class="dept-title">Pediatric Care</h3>
+                <p class="dept-description">
+                  Child-centered healthcare services from newborn to adolescence
+                  with family-focused treatment approaches.
+                </p>
+                <ul class="dept-features">
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i> Neonatal Intensive
+                    Care
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i> Developmental
+                    Pediatrics
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i> Pediatric Surgery
+                  </li>
+                </ul>
+                <a href="#" class="dept-link d-block">LEARN MORE</a>
+              </div>
+            </div>
+
+            <!-- Cancer Treatment -->
+            <div class="col-md-6 col-lg-4 fade-in-up delay-5">
+              <div class="dept-card simple-card h-100">
+                <div class="dept-icon-wrapper">
+                  <i class="fa fa-heart-pulse dept-icon"></i>
+                </div>
+                <h3 class="dept-title">Cancer Treatment</h3>
+                <p class="dept-description">
+                  Multidisciplinary oncology program offering personalized
+                  cancer care with latest innovations.
+                </p>
+                <ul class="dept-features">
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i> Precision Medicine
+                  </li>
+                  <li><i class="fa-solid fa-angle-right"></i> Immunotherapy</li>
+                  <li>
+                    <i class="fa-solid fa-angle-right"></i> Radiation Oncology
+                  </li>
+                </ul>
+                <a href="#" class="dept-link d-block">LEARN MORE</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Emergency Banner -->
+          <div class="emergency-banner fade-in-up delay-5">
+            <div class="emergency-content">
+              <div class="emergency-text">
+                <h3>Emergency Services Available 24/7</h3>
+                <p>
+                  Our emergency department is equipped with state-of-the-art
+                  technology and staffed by board-certified emergency physicians
+                  ready to provide immediate care.
+                </p>
+              </div>
+              <a href="tel:+15551234567" class="emergency-btn">
+                <i class="fa-solid fa-phone"></i>
+                Call Emergency: (555) 123-4567
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Services Section -->
+      <section class="featured-services">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="section-header fade-in-up">
+            <h2 class="section-title">Featured Services</h2>
+            <p class="section-subtitle">
+              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+              consectetur velit
+            </p>
+          </div>
+
+          <!-- Main Content Row -->
+          <div class="row align-items-start">
+            <!-- Left Side: Image -->
+            <div class="col-lg-7 fade-in-up delay-1">
+              <div class="service-image-box">
+                <img />
+                <div class="emergency-badge">
+                  <i class="fa-solid fa-heart-pulse"></i>
+                  Emergency Care
+                </div>
+              </div>
+
+              <!-- Healthcare Excellence Content (Under Image) -->
+              <div class="healthcare-excellence">
+                <div class="excellence-content">
+                  <h3>Comprehensive Healthcare Excellence</h3>
+                  <p>
+                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                    Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia curae; donec velit neque.
+                  </p>
+                  <a href="#" class="explore-link">Explore Our Services</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Side: Services List -->
+            <div class="col-lg-5 fade-in-up delay-2">
+              <div class="services-list">
+                <!-- Service 1: Dermatology Clinic -->
+                <div class="service-item">
+                  <div class="service-icon">
+                    <i class="fa-solid fa-capsules"></i>
+                  </div>
+                  <div class="service-content">
+                    <h4>Dermatology Clinic</h4>
+                    <p>
+                      Pellentesque habitant morbi tristique senectus et netus et
+                      malesuada fames ac turpis egestas.
+                    </p>
+                    <a href="#" class="service-link"
+                      >Learn More <i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <!-- Service 2: Surgery Center -->
+                <div class="service-item">
+                  <div class="service-icon">
+                    <i class="fa fa-scissors"></i>
+                  </div>
+                  <div class="service-content">
+                    <h4>Surgery Center</h4>
+                    <p>
+                      Donec rutrum congue leo eget malesuada. Curabitur arcu
+                      erat accumsan id imperdiet et porttitor at sem.
+                    </p>
+                    <a href="#" class="service-link"
+                      >Learn More <i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <!-- Service 3: Diagnostics Lab -->
+                <div class="service-item">
+                  <div class="service-icon">
+                    <i class="fa-solid fa-stethoscope"></i>
+                  </div>
+                  <div class="service-content">
+                    <h4>Diagnostics Lab</h4>
+                    <p>
+                      Vestibulum ac diam sit amet quam vehicula elementum sed
+                      sit amet dui. Cras ultricies ligula sed magna.
+                    </p>
+                    <a href="#" class="service-link"
+                      >Learn More <i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Circular Services Row -->
+          <div class="circular-services">
+            <div class="row justify-content-center">
+              <!-- Maternal Care -->
+              <div class="col-6 col-md-3 fade-in-up delay-1">
+                <div class="circle-item">
+                  <div class="circle-image">
+                    <img src="./images/images06.webp" alt="Maternal Care" />
+                    <div class="circle-overlay">
+                      <i class="bi bi-heart-fill"></i>
+                    </div>
+                  </div>
+                  <h5>Maternal Care</h5>
+                  <p>Expert pregnancy & delivery support</p>
+                </div>
+              </div>
+
+              <!-- Vaccination -->
+              <div class="col-6 col-md-3 fade-in-up delay-2">
+                <div class="circle-item">
+                  <div class="circle-image">
+                    <img src="./images/images07.webp" alt="Vaccination" />
+                    <div class="circle-overlay">
+                      <i class="bi bi-shield-check"></i>
+                    </div>
+                  </div>
+                  <h5>Vaccination</h5>
+                  <p>Complete immunization programs</p>
+                </div>
+              </div>
+
+              <!-- Emergency Care -->
+              <div class="col-6 col-md-3 fade-in-up delay-3">
+                <div class="circle-item">
+                  <div class="circle-image">
+                    <img src="./images/images08.webp" alt="Emergency Care" />
+                    <div class="circle-overlay">
+                      <i class="bi bi-heart-pulse-fill"></i>
+                    </div>
+                  </div>
+                  <h5>Emergency Care</h5>
+                  <p>24/7 critical care services</p>
+                </div>
+              </div>
+
+              <!-- Advanced Technology -->
+              <div class="col-6 col-md-3 fade-in-up delay-4">
+                <div class="circle-item">
+                  <div class="circle-image">
+                    <img
+                      src="./images/images09.webp"
+                      alt="Advanced Technology"
+                    />
+                    <div class="circle-overlay">
+                      <i class="bi bi-cpu-fill"></i>
+                    </div>
+                  </div>
+                  <h5>Advanced Technology</h5>
+                  <p>State-of-the-art medical equipment</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Find A Doctor Section -->
+      <section class="find-doctor">
+        <div class="container">
+          <!-- Section Header -->
+          <div class="section-header fade-in-up">
+            <h2 class="section-title">Find A Doctor</h2>
+            <p class="section-subtitle">
+              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+              consectetur velit
+            </p>
+          </div>
+
+          <!-- Search Section -->
+          <div class="search-section fade-in-up delay-1">
+            <h3 class="search-title">Find Your Perfect Healthcare Provider</h3>
+            <p class="search-subtitle">
+              Search through our comprehensive directory of experienced medical
+              professionals
+            </p>
+
+            <form class="search-form">
+              <div class="search-input-group">
+                <i class="fa-regular fa-user"></i>
+                <input
+                  type="text"
+                  class="search-input"
+                  placeholder="Enter doctor name"
+                />
+              </div>
+              <div class="search-input-group">
+                <i class="fa fa-heart-pulse"></i>
+                <select
+                  class="search-input"
+                  style="appearance: none; cursor: pointer"
+                >
+                  <option>All Specialties</option>
+                  <option>Cardiology</option>
+                  <option>Neurology</option>
+                  <option>Pediatrics</option>
+                  <option>Orthopedic Surgery</option>
+                  <option>Dermatology</option>
+                  <option>Oncology</option>
+                </select>
+              </div>
+              <button type="submit" class="search-btn">
+                <i class="fa fa-search"></i>
+                Find Doctors
+              </button>
+            </form>
+          </div>
+
+          <!-- Doctors Grid -->
+          <div class="doctors-grid">
+            <div class="row g-4">
+              <!-- Doctor 1: Dr. Amanda Foster -->
+              <div class="col-lg-4 col-md-6 fade-in-up delay-1">
+                <div class="doctor-card">
+                  <div class="doctor-header">
+                    <div class="doctor-image">
+                      <img
+                        src="./images/images10.webp"
+                        alt="Dr. Amanda Foster"
+                      />
+                      <span class="status-indicator"></span>
+                    </div>
+                    <div class="doctor-info">
+                      <h4>Dr. Amanda Foster</h4>
+                      <span class="specialty-badge">Cardiology Specialist</span>
+                      <div class="experience">
+                        <i class="bi bi-award"></i>
+                        <span>14 years experience</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="doctor-rating">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class="rating-number">4.9</span>
+                    <span class="reviews-count">(127 reviews)</span>
+                  </div>
+
+                  <div class="doctor-actions">
+                    <a href="#" class="btn-view">View Details</a>
+                    <a href="#" class="btn-book">Book Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Doctor 2: Dr. Marcus Johnson -->
+              <div class="col-lg-4 col-md-6 fade-in-up delay-2">
+                <div class="doctor-card">
+                  <div class="doctor-header">
+                    <div class="doctor-image">
+                      <img
+                        src="./images/images11.webp"
+                        alt="Dr. Marcus Johnson"
+                      />
+                      <span class="status-indicator busy"></span>
+                    </div>
+                    <div class="doctor-info">
+                      <h4>Dr. Marcus Johnson</h4>
+                      <span class="specialty-badge">Neurology Expert</span>
+                      <div class="experience">
+                        <i class="bi bi-award"></i>
+                        <span>16 years experience</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="doctor-rating">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <span class="rating-number">4.8</span>
+                    <span class="reviews-count">(89 reviews)</span>
+                  </div>
+
+                  <div class="doctor-actions">
+                    <a href="#" class="btn-view">View Details</a>
+                    <a href="#" class="btn-book">Schedule</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Doctor 3: Dr. Rachel Williams -->
+              <div class="col-lg-4 col-md-6 fade-in-up delay-3">
+                <div class="doctor-card">
+                  <div class="doctor-header">
+                    <div class="doctor-image">
+                      <img
+                        src="./images/images12.webp"
+                        alt="Dr. Rachel Williams"
+                      />
+                      <span class="status-indicator"></span>
+                    </div>
+                    <div class="doctor-info">
+                      <h4>Dr. Rachel Williams</h4>
+                      <span class="specialty-badge">Pediatrics Care</span>
+                      <div class="experience">
+                        <i class="bi bi-award"></i>
+                        <span>11 years experience</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="doctor-rating">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class="rating-number">5.0</span>
+                    <span class="reviews-count">(203 reviews)</span>
+                  </div>
+
+                  <div class="doctor-actions">
+                    <a href="#" class="btn-view">View Details</a>
+                    <a href="#" class="btn-book">Book Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Doctor 4: Dr. David Chen -->
+              <div class="col-lg-4 col-md-6 fade-in-up delay-4">
+                <div class="doctor-card">
+                  <div class="doctor-header">
+                    <div class="doctor-image">
+                      <img src="./images/images13.webp" alt="Dr. David Chen" />
+                      <span class="status-indicator"></span>
+                    </div>
+                    <div class="doctor-info">
+                      <h4>Dr. David Chen</h4>
+                      <span class="specialty-badge">Orthopedic Surgery</span>
+                      <div class="experience">
+                        <i class="bi bi-award"></i>
+                        <span>22 years experience</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="doctor-rating">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class="rating-number">4.7</span>
+                    <span class="reviews-count">(156 reviews)</span>
+                  </div>
+
+                  <div class="doctor-actions">
+                    <a href="#" class="btn-view">View Details</a>
+                    <a href="#" class="btn-book">Schedule</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Doctor 5: Dr. Victoria Torres -->
+              <div class="col-lg-4 col-md-6 fade-in-up delay-5">
+                <div class="doctor-card">
+                  <div class="doctor-header">
+                    <div class="doctor-image">
+                      <img
+                        src="./images/images14.webp"
+                        alt="Dr. Victoria Torres"
+                      />
+                      <span class="status-indicator"></span>
+                    </div>
+                    <div class="doctor-info">
+                      <h4>Dr. Victoria Torres</h4>
+                      <span class="specialty-badge">Dermatology Care</span>
+                      <div class="experience">
+                        <i class="bi bi-award"></i>
+                        <span>9 years experience</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="doctor-rating">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="bi bi-star-half"></i>
+                    </div>
+                    <span class="rating-number">4.5</span>
+                    <span class="reviews-count">(74 reviews)</span>
+                  </div>
+
+                  <div class="doctor-actions">
+                    <a href="#" class="btn-view">View Details</a>
+                    <a href="#" class="btn-book">Book Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Doctor 6: Dr. Benjamin Lee -->
+              <div class="col-lg-4 col-md-6 fade-in-up delay-6">
+                <div class="doctor-card">
+                  <div class="doctor-header">
+                    <div class="doctor-image">
+                      <img
+                        src="./images/images15.webp"
+                        alt="Dr. Benjamin Lee"
+                      />
+                      <span class="status-indicator busy"></span>
+                    </div>
+                    <div class="doctor-info">
+                      <h4>Dr. Benjamin Lee</h4>
+                      <span class="specialty-badge">Oncology Treatment</span>
+                      <div class="experience">
+                        <i class="bi bi-award"></i>
+                        <span>19 years experience</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="doctor-rating">
+                    <div class="stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span class="rating-number">4.9</span>
+                    <span class="reviews-count">(194 reviews)</span>
+                  </div>
+
+                  <div class="doctor-actions">
+                    <a href="#" class="btn-view">View Details</a>
+                    <a href="#" class="btn-book">Schedule</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- View All Button -->
+          <div class="view-all-container fade-in-up delay-6">
+            <a href="#" class="btn-view-all">
+              View All Doctors
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Excellence Section -->
+      <section class="excellence-section">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- Content Side -->
+            <div class="col-lg-6 fade-in-up">
+              <div class="excellence-content">
+                <h2 class="excellence-title">
+                  Excellence in Medical<br />
+                  Care, Every Day
+                </h2>
+                <p class="excellence-description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation.
+                </p>
+                <div class="excellence-links">
+                  <a href="#" class="link-primary">
+                    Schedule Consultation<i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                  <a href="#" class="link-secondary">
+                    Explore Services<i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Image Side -->
+            <div class="col-lg-6 fade-in-up delay-1">
+              <div class="excellence-image-wrapper">
+                <img
+                  src="./images/images02.webp"
+                  alt="Medical Excellence"
+                  class="excellence-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features-section">
+        <div class="container">
+          <div class="row">
+            <!-- Feature 1: Advanced Technology -->
+            <div class="col-lg-4 col-md-4 fade-in-up delay-2">
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <h4 class="feature-title">Advanced Technology</h4>
+                <p class="feature-description">
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+
+            <!-- Feature 2: 24/7 Availability -->
+            <div class="col-lg-4 col-md-4 fade-in-up delay-3">
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <i class="fa-regular fa-clock"></i>
+                </div>
+                <h4 class="feature-title">24/7 Availability</h4>
+                <p class="feature-description">
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur excepteur.
+                </p>
+              </div>
+            </div>
+
+            <!-- Feature 3: Expert Team -->
+            <div class="col-lg-4 col-md-4 fade-in-up delay-4">
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <i class="fa-solid fa-users"></i>
+                </div>
+                <h4 class="feature-title">Expert Team</h4>
+                <p class="feature-description">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium totam rem.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Emergency Banner -->
+          <div class="emergency-banner fade-in-up delay-4">
+            <div class="emergency-content">
+              <div class="emergency-text">
+                <h3>Need Immediate Medical Assistance?</h3>
+                <p>
+                  Our emergency response team is available around the clock to
+                  provide immediate medical support when you need it most.
+                </p>
+              </div>
+              <div class="emergency-actions">
+                <a href="tel:+15551234567" class="emergency-phone">
+                  <i class="fa-solid fa-phone"></i>
+                  (555) 123-4567
+                </a>
+                <a href="#" class="find-location">Find Location</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <!-- Brand Column -->
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 custom_font">
+            <a href="#" class="footer-brand">Clinic</a>
+            <p class="footer-description mb-4">
+              Crafting exceptional digital experiences through thoughtful design
+              and innovative solutions that elevate your brand presence.
+            </p>
+            <div class="footer-contact-info">
+              <div class="footer-contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Tanta, Egypt</span>
+              </div>
+              <div class="footer-contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <span>+20 1099 567 735</span>
+              </div>
+              <div class="footer-contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <span>hello@designstudio.com</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Studio Column -->
+          <div class="col-lg-2 col-md-6 col-6 mb-4 mb-lg-0">
+            <h5 class="footer-title">Studio</h5>
+            <ul class="footer-links">
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Design Process</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Case Studies</a></li>
+              <li><a href="#">Awards</a></li>
+            </ul>
+          </div>
+
+          <!-- Services Column -->
+          <div class="col-lg-2 col-md-6 col-6 mb-4 mb-lg-0">
+            <h5 class="footer-title">Services</h5>
+            <ul class="footer-links">
+              <li><a href="#">Brand Identity</a></li>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Mobile Apps</a></li>
+              <li><a href="#">Digital Strategy</a></li>
+              <li><a href="#">Consultation</a></li>
+            </ul>
+          </div>
+
+          <!-- Resources Column -->
+          <div class="col-lg-2 col-md-6 col-6 mb-4 mb-md-0">
+            <h5 class="footer-title">Resources</h5>
+            <ul class="footer-links">
+              <li><a href="#">Design Blog</a></li>
+              <li><a href="#">Style Guide</a></li>
+              <li><a href="#">Free Assets</a></li>
+              <li><a href="#">Tutorials</a></li>
+              <li><a href="#">Inspiration</a></li>
+            </ul>
+          </div>
+
+          <!-- Connect Column -->
+          <div class="col-lg-2 col-md-6 col-6">
+            <h5 class="footer-title">Connect</h5>
+            <ul class="footer-links">
+              <li><a href="#">Start Project</a></li>
+              <li><a href="#">Schedule Call</a></li>
+              <li><a href="#">Join Newsletter</a></li>
+              <li><a href="#">Follow Updates</a></li>
+              <li><a href="#">Partnership</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom custom_font">
+          <div class="row align-items-center">
+            <div class="col-md-4 mb-3 mb-md-0">
+              <p class="copyright mb-0">
+                © <strong>Clinic</strong>. All rights reserved.
+              </p>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+              <ul class="footer-bottom-links justify-content-md-center">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <p class="credits mb-0 text-md-end">
+                Devolped by <a href="#">Ahmed Wageh</a>
+                <a href="#"></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
